@@ -2,44 +2,4 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body {
-    height:100vh;
-    justify-content: center;
-    align-items: center;
-}
-
-.calculadora {
-    width: 20%;
-    height: 60%;
-    background-color: black;
-    border-radius: 7%;
-    justify-content: center;
-    position: relative;
-    text-align: center;
-    align-items: center;
-    align-content: center;
-}
-
-.calculadora input[type="textfield"]{
-    width: 90%;
-    height: 7%;
-    margin: 0px auto;
-    margin-top: 10%;
-    background-color: red;
-    position: relative;
-    
-}
-
-.botones {
-    text-align: center;
-    position: relative;
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 25% 25% 25% 25%;
-    justify-content: center;
-}
-
-.botones input[type="button"]{
-    margin: 0 auto;
-}
 
