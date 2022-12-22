@@ -15,32 +15,32 @@
                 Calculadora
             </div>
         </div>
-        <input type="textfield" id="ds" value="0" readonly>
+        <input type="text" id="ds" value="0" readonly>
         <div class="recuadro">
             <div class="fila">
                 <input type="button" id="7" value="7" class="operador numero" onclick="addNumber(7)">
-                <input type="button" id="8" value="8" class="operador numero">
-                <input type="button" id="9" value="9" class="operador numero">
-                <input type="button" id="/" value="/" class="operador funcion">
+                <input type="button" id="8" value="8" class="operador numero" onclick="addNumber(8)">
+                <input type="button" id="9" value="9" class="operador numero" onclick="addNumber(9)">
+                <input type="button" id="/" value="/" class="operador funcion"onclick="dividir()">
 
-                <input type="button" id="4" value="4" class="operador numero">
-                <input type="button" id="5" value="5" class="operador numero">
-                <input type="button" id="6" value="6" class="operador numero">
-                <input type="button" id="X" value="X" class="operador funcion">
+                <input type="button" id="4" value="4" class="operador numero" onclick="addNumber(4)">
+                <input type="button" id="5" value="5" class="operador numero" onclick="addNumber(5)">
+                <input type="button" id="6" value="6" class="operador numero" onclick="addNumber(6)">
+                <input type="button" id="X" value="X" class="operador funcion"onclick="multiplicar()">
                 
-                <input type="button" id="1" value="1" class="operador numero">
-                <input type="button" id="2" value="2" class="operador numero">
-                <input type="button" id="3" value="3" class="operador numero">
-                <input type="button" id="-" value="-" class="operador funcion">
+                <input type="button" id="1" value="1" class="operador numero" onclick="addNumber(1)">
+                <input type="button" id="2" value="2" class="operador numero" onclick="addNumber(2)">
+                <input type="button" id="3" value="3" class="operador numero" onclick="addNumber(3)">
+                <input type="button" id="-" value="-" class="operador funcion" onclick="restar()">
                 
-                <input type="button" id="<" value="<" class="operador funcion">
-                <input type="button" id="0" value="0" class="operador numero">
-                <input type="button" id="." value="." class="operador funcion">
-                <input type="button" id="/" value="/" class="operador funcion">
+                <input type="button" id="." value="." class="operador funcion" onclick="addPunto()">
+                <input type="button" id="0" value="0" class="operador numero" onclick="addNumber(0)">
+                <input type="button" id="<" value="←" class="operador funcion" onclick="atras()">
+                <input type="button" id="+" value="+" class="operador funcion" onclick="sumar()">
                 
                 <div></div>
-                <input type="button" id="C" value="C" class="operador funcion" onclick="clear()">
-                <input type="button" id="=" value="=" class="operador funcion">
+                <input type="button" id="C" value="C" class="operador funcion" onclick="clearDisplay()">
+                <input type="button" id="=" value="=" class="operador funcion" onclick="resultado()">
                 <div></div>
             </div>
         </div>
