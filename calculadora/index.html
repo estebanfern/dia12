@@ -4,9 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="menu">
+            <div class="head">
+                Calculadora
+            </div>
+        </div>
+        <input type="textfield" id="ds" value="0" readonly>
+        <div class="recuadro">
+            <div class="fila">
+                <input type="button" id="7" value="7" class="operador numero" onclick="addNumber(7)">
+                <input type="button" id="8" value="8" class="operador numero">
+                <input type="button" id="9" value="9" class="operador numero">
+                <input type="button" id="/" value="/" class="operador funcion">
+
+                <input type="button" id="4" value="4" class="operador numero">
+                <input type="button" id="5" value="5" class="operador numero">
+                <input type="button" id="6" value="6" class="operador numero">
+                <input type="button" id="X" value="X" class="operador funcion">
+                
+                <input type="button" id="1" value="1" class="operador numero">
+                <input type="button" id="2" value="2" class="operador numero">
+                <input type="button" id="3" value="3" class="operador numero">
+                <input type="button" id="-" value="-" class="operador funcion">
+                
+                <input type="button" id="<" value="<" class="operador funcion">
+                <input type="button" id="0" value="0" class="operador numero">
+                <input type="button" id="." value="." class="operador funcion">
+                <input type="button" id="/" value="/" class="operador funcion">
+                
+                <div></div>
+                <input type="button" id="C" value="C" class="operador funcion" onclick="clear()">
+                <input type="button" id="=" value="=" class="operador funcion">
+                <div></div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

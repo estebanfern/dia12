@@ -1,5 +1,82 @@
 * {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 
+body {
+    background-color: darkslategrey;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgb(34, 33, 33);
+    width: 30%;
+    height: 80%;
+    margin: 0 auto;
+    border-radius: 3%;
+    box-shadow: 10px 10px 10px 10px rgb(50, 50, 50);
+}
+
+.menu {
+    margin-top: 3%;
+    color: rgb(230, 244, 244);
+    font-size: 200%;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+#ds{
+    margin-top: 7%;
+    width: 100%;
+    height: 10%;
+    text-align: end;
+    color: white;
+    background-color: rgb(34, 33, 33);
+    border: solid 0 rgb(43, 2, 2);
+    border-bottom: solid 1px rgb(255, 255, 255);
+    font-size: 400%;
+    font-weight: lighter;
+}
+
+.recuadro {
+    margin-top: 7%;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.fila {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 12% 12% 12% 12% 12%;
+    justify-content: space-evenly;
+    padding: 1px;
+    gap: 1%;
+}
+
+.operador {
+    margin: 1%;
+    color: black;
+    border-radius: 30%;
+    border: solid 1px rgb(162, 162, 162);
+    background-color: rgb(61, 57, 57);
+    color: white;
+    font-size: 120%;
+    font-weight: 900;
+}
+
+.operador:hover{
+    background-color: rgb(110, 104, 104);
+}
+
+.funcion {
+    background-color: rgb(42, 35, 35);
+}
 
